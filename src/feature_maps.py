@@ -110,3 +110,4 @@ def get_all_feature_maps(n_qubits=2):
         'IQP-style': build_iqp_feature_map(n_qubits),
         'Amplitude': build_amplitude_encoding(n_qubits),
     }
+# IQP encoding uses commuting diagonal gates
